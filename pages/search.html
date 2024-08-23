@@ -38,7 +38,7 @@
         style="background-color: rgb(255, 255, 255);"
       >
         <div class="container">
-          <a class="navbar-brand" href="index.html">
+          <a class="navbar-brand" href="../index.html">
             <strong>CSMJU Yearbook</strong>
           </a>
           <button
@@ -55,17 +55,17 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="index.html"
+                <a class="nav-link" aria-current="page" href="../index.html"
                   ><i class="fa-solid fa-house"></i>
                   หน้าหลัก</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="pages/search.html">
+                <a class="nav-link" href="../pages/albums.html">
                   <i class="fa-solid fa-book"></i></i>
                     ดูอัลบั้ม</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">
+                <a class="nav-link" href="../pages/search.html">
                   <i class="fa-solid fa-magnifying-glass"></i>
                     ค้นหารูป</a>
               </li>
@@ -76,18 +76,19 @@
     </header>
 
 
+    
     <!---Search area--->
-
-    <div class="container justify-content-center d-flex" style="background-color: rgb(0, 255, 4); padding-top: 6rem; padding-bottom: 3rem;">
+    <div class="container d-flex flex-column align-items-center" style="background-color: rgb(0, 255, 4); padding-top: 6rem; padding-bottom: 3rem; border-radius: 0 0 20px 20px;">
+      <h1 class="text-center mb-4">ค้นหาตามรหัส</h1>
       <div class="container mt-1 w-auto">
-        <div class="input-group rounded">
-            <input type="search" class="form-control rounded-start" placeholder="Search" />
-            <span class="input-group-text rounded-end " id="search-addon">
-                <i class="fas fa-search"></i>
-            </span>
-        </div>
-    </div>
-    </div>
+          <div class="input-group rounded">
+              <input type="search" class="form-control rounded-start" placeholder="ค้นหาตามรหัส" />
+              <span class="input-group-text rounded-end" id="search-addon">
+                  <i class="fas fa-search"></i>
+              </span>
+          </div>
+      </div>
+  </div>
 
     <!---Contents--->
     <p class="text-center m-4" style="font-size: 2.6em;">
@@ -232,7 +233,7 @@
     <!---Page selects--->
     <div class="btn-toolbar justify-content-center rounded" aria-label="Toolbar with button groups">
       <div class="btn-group rounded" role="group" aria-label="First group">
-        <a href="../index.html">
+        <a href="../pages/search.html">
         <button type="button" class="btn btn-outline-primary m-2 rounded">1</button>
       </a>
       <a href="../pages/search2.html">
